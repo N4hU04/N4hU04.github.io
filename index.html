@@ -12,10 +12,16 @@
 </head>
 <body>
     <header>
-        <img href="lumaire.html" class="Lumaire-logotipo" src="recursos/Lumaire Diseño y Enc-02.png" alt="Lumaire Logotipo">
-        <button class="PRODUCTOS"> PRODUCTOS</button>
-        <button class="TÉCNICAS"> TÉCNICAS</button>
-        <button class="DONDE-ESTAMOS"> ¿DONDE ESTAMOS?</button>
+        <form>
+            <button formaction="https://n4hu04.github.io/">
+                <img class="Lumaire-logotipo" src="recursos/Lumaire Diseño y Enc-02.png" alt="Lumaire Logotipo"></button>
+                </form>
+            <button class="PRODUCTOS"><a href="#Productos">PRODUCTOS</a></button>
+                </form>
+        <form>
+            <button formaction="http://google.com.ar" class="TÉCNICAS">TÉCNICAS</button>
+                </form>
+            <button class="DONDE-ESTAMOS"><a href="#Donde">¿DONDE ESTAMOS?</a></button>
     </header>
     <main>
         <div>
@@ -30,35 +36,66 @@
                 finos y técnicas tradicionales para producir piezas<br>
                 exclusivas que capturan la esencia de tus<br>
                 recuerdos más preciados.</p>
-            </div>
+                </div>
             <div class="modelo-cuaderno">
                 <img class="modelo" src="recursos/Modelo-cuaderno.jpg" alt="Modelo-cuaderno">
-            </div>  
-        </div>
+                </div>  
+            </div>
         <h2>¡NUEVA AGENDA LITERARIA!</h2>
         <p class="texto-agendalit">Ya podés seguir reseñando tus lecturas favoritas en<br>
              este cuaderno, un espacio íntimo para compartir<br>
               tus nuevas y especiales impresiones literarias</p>
         <div class="box"></div>
         <img class="diario-lec" src="recursos/diario-lec.png" alt="diario-de-lectura">
-    </main>
-    <footer>
-        <div class="títulos-footer"><p>ESTAMOS<br>
-            EN ESTAS FERIAS:</p>
+        <div class="título-nuestros-prod">
+        <div><h3>Nuestros productos:</h3></div>
+            <div>
+                <form>
+                    <button formaction="http://google.com.ar" class="botón-catálogo">Ver catálogo</button>
+                    </form>
+                </div>
+            </div>
+        <div id="Productos"  class="área-productos">
+            <div class="ejemplos-prod">
+                <img class="fotos-prod" src="recursos/productos-cuad-eco.jpg" alt="ecológicos">
+                <p class="descripción-prod"><strong class="títulos-prod">Ecológicos<br><br></strong>
+                    Engrapados con diseños exclusivos hechos papel de caña de azúcar biodegradable y tapa reciclada.<br><br><br>
+                    Tamaños A5 y A6<br>
+                    Tapa Blanda</p>
+                </div>
+            <div class="ejemplos-prod">
+                <img class="fotos-prod" src="recursos/productos-cuad-tapd.jpeg" alt="tapa-dura-obras">
+                <p class="descripción-prod"><strong class="títulos-prod">Obras Clásicas<br><br></strong>
+                Cuadernos de hojas lisas ecológicas con tapa dura de arte clásico de disitintas épocas:
+                Van Gogh, Monet, Everett, etc.<br><br>
+                Tamaños A5<br>
+                Tapa Dura</p> 
+                </div>
+            <div class="ejemplos-prod">
+                <img class="fotos-prod" src="recursos/productos-diarios.jpg" alt="diaro-lectura">
+                <p class="descripción-prod"><strong class="títulos-prod">Diarios de Lectura<br><br></strong>
+                Cuadernos tapa dura para reseñar sesenta libros. Incluye espacio para frases, fecha de inicio, puntuaciones y más...<br><br><br>
+                Tamaños A5<br>
+                Tapa Dura</p> 
+                </div>
+            </div>
+        </main>
+    <footer id="Donde">
+        <div class="títulos-footer">
+            <p>ESTAMOS<br>EN ESTAS FERIAS:</p>
             <img class="cuad-vol" src="recursos/cuadernos-volando.png" alt="cuadernos-volando">
             <p class="contacto"><br>¡CONTACTANOS!</p>
             </div>
-         <div class="ferias">
+        <div class="ferias">
             <p class="Título-Arriba-R">
-             <img class="Logo-ArribR" src="recursos/Arriba-R.png" alt="Arriba-Rosario">
-            Arriba Rosario<br>(Plaza Sarmiento)</p>
+            <img class="Logo-ArribR" src="recursos/Arriba-R.png" alt="Arriba-Rosario">Arriba Rosario<br>(Plaza Sarmiento)</p>
             <p class="Título-Colmena">
-            <img class="Logo-Colmena" src="recursos/Colmena.png" alt="La-Colmena">
-            La Colmena<br>(Plaza Gral. Toribio<br>de Luzuriaga)</p>
+            <img class="Logo-Colmena" src="recursos/Colmena.png" alt="La-Colmena">La Colmena<br>(Plaza Gral. Toribio<br>de Luzuriaga)</p>
             </div>
-            <p class="instagram">@lum.aire</p> 
-            <p class="whatsapp">+54 321 1354321</p> 
-            <div class="iconos"><i class="lab la-instagram"></i>
+            <a href="https://www.instagram.com/lum.aire/" target="_blank" class="instagram">@lum.aire</a> 
+            <a href="https://web.whatsapp.com/" target="_blank" class="whatsapp">+54 321 1354321</a> 
+         <div class="iconos">
+            <i class="lab la-instagram"></i>
             <i class="lab la-whatsapp"></i>
             </div>
     </footer>
